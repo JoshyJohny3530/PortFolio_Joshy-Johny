@@ -92,7 +92,7 @@ function App() {
             <ServiceCard
               title="Frontend Development"
               description="Creating engaging and intuitive user interfaces that enhance user experiences."
-              tools={["ReactJS", "AngularJS", "Vue.js", "jQuery", "Next.js"]}
+              tools={["ReactJS", "AngularJS", "Vue.js", "jQuery", "Next.js, Tailwind CSS, Bootstrap"]}
               image={code}
             />
             <ServiceCard
@@ -110,7 +110,7 @@ function App() {
             <ServiceCard
               title="CI/CD & Version Control"
               description="Streamlining development workflows and maintaining code quality."
-              tools={["Jenkins", "AWS", "Git", "GitHub", "GitLab"]}
+              tools={["Jenkins", "Docker", "Git", "GitHub", "GitLab"]}
               image={code}
             />
             <ServiceCard
@@ -122,7 +122,7 @@ function App() {
             <ServiceCard
               title="Mobile Development"
               description="Building responsive and functional mobile applications."
-              tools={["Flutter", "Android Development"]}
+              tools={["Flutter", "Android Development", "Swift"]}
               image={code}
             />
             <ServiceCard
@@ -131,6 +131,19 @@ function App() {
               tools={["Selenium", "PyTest"]}
               image={code}
             />
+            <ServiceCard
+              title="Analytics & Tools"
+              description="Leveraging data-driven insights to optimize application performance and user engagement."
+              tools={["Google Analytics", "Google Search Console", "SEO/SEM Tools"]}
+              image={code}
+            />
+            <ServiceCard
+              title="Project Management"
+              description="Streamlining workflows and enhancing collaboration to deliver projects on time and within budget."
+              tools={["Jira", "Trello"]}
+              image={code}
+            />
+
           </div>
         </section>
 
@@ -143,16 +156,19 @@ function App() {
               in development and design.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-10 py-10">
+          <div className="flex flex-wrap justify-center gap-[2.5rem] py-10">
             {[web1, web2, web3, web4, web5, web6, web7, web8].map((img, idx) => (
               <img
                 key={idx}
                 src={img}
                 alt={`Project ${idx + 1}`}
-                className="rounded-lg w-80 h-80"
+                className="rounded-lg w-full sm:w-[calc(50%-1.25rem)] h-auto"
               />
             ))}
           </div>
+
+
+
         </section>
       </main>
     </div>
