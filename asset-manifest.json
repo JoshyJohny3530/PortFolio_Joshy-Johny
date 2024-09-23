@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortFolio_Joshy-Johny/static/css/main.ec9875c1.css",
+    "main.css": "/PortFolio_Joshy-Johny/static/css/main.5b70974f.css",
     "main.js": "/PortFolio_Joshy-Johny/static/js/main.f0f185ec.js",
     "static/media/web3.webp": "/PortFolio_Joshy-Johny/static/media/web3.ec8c9e051aeea08ef47f.webp",
     "static/media/web4.webp": "/PortFolio_Joshy-Johny/static/media/web4.d8d55d2a761a432471b1.webp",
@@ -13,11 +13,11 @@
     "static/media/design.webp": "/PortFolio_Joshy-Johny/static/media/design.ff64689f35f6c3c22cb5.webp",
     "static/media/code.webp": "/PortFolio_Joshy-Johny/static/media/code.0f9d7261cd420351a9d3.webp",
     "index.html": "/PortFolio_Joshy-Johny/index.html",
-    "main.ec9875c1.css.map": "/PortFolio_Joshy-Johny/static/css/main.ec9875c1.css.map",
+    "main.5b70974f.css.map": "/PortFolio_Joshy-Johny/static/css/main.5b70974f.css.map",
     "main.f0f185ec.js.map": "/PortFolio_Joshy-Johny/static/js/main.f0f185ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9875c1.css",
+    "static/css/main.5b70974f.css",
     "static/js/main.f0f185ec.js"
   ]
 }
